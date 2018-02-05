@@ -15,7 +15,7 @@
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <script>
-    Plotly.d3.csv("Data.csv", processData);
+    Plotly.d3.csv("https://cors-anywhere.herokuapp.com/https://drive.google.com/uc?export=download&id=1_cG2NrtGfuHv_aQGOHWOAZx7wapBlEah", processData);
 
     function processData(data) {
         var columns = Object.getOwnPropertyNames(data[0]);
